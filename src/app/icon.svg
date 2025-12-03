@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#c084fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fce7f3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)"/>
+  
+  <!-- Moon shape (representing Luna) -->
+  <circle cx="100" cy="90" r="45" fill="url(#heartGradient)" opacity="0.9"/>
+  <circle cx="115" cy="85" r="40" fill="url(#bgGradient)"/>
+  
+  <!-- Heart symbol (representing Materna) -->
+  <path d="M100,140 C100,140 70,115 70,95 C70,80 80,75 90,80 C95,82 100,87 100,87 C100,87 105,82 110,80 C120,75 130,80 130,95 C130,115 100,140 100,140 Z" 
+        fill="#ffffff" opacity="0.95"/>
+  
+  <!-- Small stars -->
+  <circle cx="60" cy="60" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="140" cy="70" r="2.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="75" cy="140" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="125" cy="135" r="2.5" fill="#ffffff" opacity="0.7"/>
+</svg>
